@@ -31,7 +31,7 @@ console.log(oddsToTwenty())                                   //call function od
 function multiplesOfFive() {
   
   const numbers = []
-  for (let counter = 5; counter <=20; counter +=5){
+  for (let counter = 5; counter <=100; counter +=5){
     numbers.push(counter)
   }
     return numbers;
@@ -84,7 +84,7 @@ console.log(oddNumbersBackwards())
 
 function multiplesOfFiveBackwards() {
     const numbers = []
-    for(let counter = 20; counter >=5; counter -=5){
+    for(let counter = 100; counter >=5; counter -=5){
       numbers.push(counter)
     }
     return numbers;
